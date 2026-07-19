@@ -1,0 +1,23 @@
+.
+tb reset_n
+clk :clock
+
+/^t_a_((?<valid>req)|(?<ready>ack)|)/
+
+
+/^t_b_((?<valid>req)|(?<ready>ack)|)/
+
+
+
+
+/^i_x_((?<valid>req)|(?<ready>ack)|)/
+
+
+
+
+/^i_y_((?<valid>req)|(?<ready>ack)|)/
+
+
+
+
+
